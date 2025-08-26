@@ -3,6 +3,8 @@ layout: default
 title: Contact
 ---
 
+{% include nav.md %}
+
 # Contact
 - General: **info@james5.org**
 - Founder: **zeke@james5.org**
