@@ -3,6 +3,7 @@ layout: default
 title: Home
 ---
 
+{% include nav.md %}
 
 # James: 5 Ministries
 **Christ over Capital.** A Christian justice movement proclaiming that you cannot serve both God and Mammon.
