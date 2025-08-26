@@ -2,6 +2,8 @@
 layout: default
 title: Home
 ---
+[Home](/) | [Manifesto](/manifesto) | [Partner](/partner) | [Podcast](https://james5.substack.com) | [Links](/links) | [Contact](/contact)
+
 
 # James: 5 Ministries
 **Christ over Capital.** A Christian justice movement proclaiming that you cannot serve both God and Mammon.
