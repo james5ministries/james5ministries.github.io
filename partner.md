@@ -6,7 +6,6 @@ title: Partner
 {% include nav.md %}
 
 # Partner With Us
-**Pulpit talks**, **James 5 study nights**, **justice workshops**, and **visual theology**.
+**Provide Content**, **Volunteer**, **Network**, and **Share Thoughts**.
 
-- Email **partner@james5.org** to schedule.
-- Media inquiries: **media@james5.org**.
+- Email **info@james5.org**
