@@ -2,7 +2,6 @@
 layout: default
 title: Manifesto
 ---
-[Home](/) | [Manifesto](/manifesto) | [Partner](/partner) | [Podcast](https://james5.substack.com) | [Links](/links) | [Contact](/contact)
 
 
 # James: 5 Manifesto
