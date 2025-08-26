@@ -3,6 +3,7 @@ layout: default
 title: Manifesto
 ---
 
+{% include nav.md %}
 
 # James: 5 Manifesto
 We confess: **Christ is Lord, not Capital.**  
