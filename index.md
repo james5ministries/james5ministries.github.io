@@ -6,7 +6,7 @@ title: Home
 {% include nav.md %}
 
 # James: 5 Ministries
-**Christ over Capital.** A Christian justice movement proclaiming that you cannot serve both God and Mammon.
+**Christ over Capital.** A Christian socialist movement proclaiming that you cannot serve both God and Mammon.
 
 [Join the Movement](mailto:info@james5.org?subject=Join%20the%20Movement){: .btn }
 [Podcast](https://james5.substack.com){: .btn }
@@ -23,4 +23,4 @@ James: 5 Ministries is a grassroots, Christ-centered movement calling the Church
 
 > *“The cries of the harvesters have reached the ears of the Lord.”* — **James 5:4**
 
-**Contact:** info@james5.org · Media: media@james5.org
+**Contact:** info@james5.org
