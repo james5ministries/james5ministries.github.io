@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Manifesto
+title: Canons
 ---
 
 {% include nav.md %}
 
-# James: 5 Manifesto
+# James: 5 Canons
 We confess: **Christ is Lord, not Capital.**  
 We resist: exploitative wealth and systems that crush workers and the poor.  
 We proclaim: God hears the harvesters’ cries.  
