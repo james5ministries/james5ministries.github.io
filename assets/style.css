@@ -26,13 +26,13 @@ a{ color:var(--red); }
 }
 
 .j5-nav .nav-logo img {
-  height: 36px;   /* adjust size as needed */
+  height: 48px;   /* adjust size as needed */
   width: auto;
   display: block;
 }
 
 .j5-nav .nav-links a {
-  margin-left: 16px;
+  margin-left: 0px;
   font-weight: 600;
   color: var(--red);
   text-decoration: none;
