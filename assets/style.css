@@ -10,44 +10,55 @@ html,body{ margin:0; background:var(--cream); color:var(--ink); font:16px/1.6 "S
 h1,h2,h3{ font-family:"Cinzel", serif; margin:0 0 12px; }
 a{ color:var(--red); }
 
-/* Fixed top nav bar */
-.j5-nav {
-  position: fixed;
-  top: 0; left: 0; width: 100%;
+/* Fixed bar */
+.j5-nav{
+  position: fixed; top:0; left:0; width:100%;
   background: var(--cream);
   border-bottom: 2px solid var(--red);
   z-index: 1000;
   box-shadow: 0 2px 6px rgba(0,0,0,.06);
 }
 
-.j5-nav .nav-container {
-  max-width: 1100px;   /* keeps things away from edges */
-  margin: 0 auto;      /* center the container */
-  padding: 0 24px;     /* left/right breathing room */
+/* Centered max-width container + flex row */
+.j5-nav .nav-container{
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 8px 24px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.j5-nav .nav-logo img {
-  height: 32px;  /* adjust logo size */
+/* Logo sizing */
+.j5-nav .nav-logo img{
+  height: 32px;  /* tweak 28–40px */
   width: auto;
   display: block;
 }
 
-.j5-nav .nav-links a {
-  margin-left: 18px;
+/* Links as a flex row with gap */
+.j5-nav .nav-links{
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+.j5-nav .nav-links a{
   font-weight: 600;
   color: var(--red);
   text-decoration: none;
 }
-.j5-nav .nav-links a:hover {
-  text-decoration: underline;
+.j5-nav .nav-links a:hover{ text-decoration: underline; }
+
+/* Keep page content below the fixed bar */
+body{ margin-top: 70px; }
+
+/* Mobile: stack links under logo, centered */
+@media (max-width: 640px){
+  .j5-nav .nav-container{ flex-direction: column; gap: 8px; padding: 10px 16px; }
+  .j5-nav .nav-links{ flex-wrap: wrap; justify-content: center; gap: 12px 16px; }
+  body{ margin-top: 88px; }
 }
 
-/* Push page content down so it’s not hidden behind nav */
-body { margin-top: 70px; }
- /* adjust if bar gets taller */
 
 
 /* Page wrapper */
@@ -65,10 +76,5 @@ body { margin-top: 70px; }
 .btn.primary{ background:var(--red); color:#fff; }
 .btn.ghost{ background:transparent; color:var(--red); }
 .btn.gold{ background:var(--gold); color:var(--ink); border-color:var(--gold); }
-
-/* Mobile */
-@media (max-width:640px){
-  .j5-nav a{ display:inline-block; margin:6px 8px; }
-  .j5-container{ padding: 18px; }
 }
 
