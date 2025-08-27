@@ -49,8 +49,8 @@ a{ color:var(--red); }
 }
 .j5-nav .nav-links a:hover{ text-decoration: underline; }
 
-/* Keep page content below the fixed bar */
-body{ margin-top: 70px; }
+/* fall back 70px if JS hasn’t run yet */
+body { margin-top: var(--nav-h, 70px); }
 
 /* Mobile: stack links under logo, centered */
 @media (max-width: 640px){
