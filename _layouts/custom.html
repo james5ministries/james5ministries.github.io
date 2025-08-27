@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>{{ page.title }} | James: 5 Ministries</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="A Christ-centered justice movement rooted in James 5: Christ over Capital." />
+
+  <!-- Brand fonts (optional) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Source+Serif+4:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- Global styles -->
+  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+
+  <!-- Favicon (optional) -->
+  <link rel="icon" type="image/png" href="{{ '/assets/favicon.png' | relative_url }}">
+</head>
+<body>
+
+  <!-- Fixed top nav -->
+  {% include nav.html %}
+
+  <!-- Main content wrapper -->
+  <main class="j5-container">
+    {{ content }}
+  </main>
+
+  <!-- Footer -->
+  {% include footer.html %}
+
+</body>
+</html>
