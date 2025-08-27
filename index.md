@@ -9,9 +9,9 @@ title: Home
 # James: 5 Ministries
 **Christ over Capital.** A Christian movement proclaiming that you cannot serve both God and Mammon. 
 
-[Join the Movement](mailto:info@james5.org?subject=Join%20the%20Movement){: .btn }
-[Podcast](https://james5ministries.substack.com){: .btn }
-[Merch](https://james5.creator-spring.com){: .btn }
+[Join the Movement](mailto:info@james5.org?subject=Join%20the%20Movement){: .btn .primary }
+[Podcast](https://james5ministries.substack.com){: .btn .ghost }
+[Merch](https://james5.creator-spring.com){: .btn .gold }
 
 ---
 
