@@ -2,7 +2,7 @@
 [Home]({{ "/" | relative_url }}) |
 [Canons]({{ "/canons.html" | relative_url }}) |
 [Partner]({{ "/partner.html" | relative_url }}) |
-[Podcast](https://james5.substack.com) |
+[Podcast](https://james5ministries.substack.com) |
 [Link Page]({{ "/link_page.html" | relative_url }}) |
 [Contact]({{ "/contact.html" | relative_url }})
 
