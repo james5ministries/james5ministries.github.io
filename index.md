@@ -3,7 +3,10 @@ layout: default
 title: Home
 ---
 
-{% include nav.md %}
+<div class="j5-nav">
+  {% include nav.md %}
+</div>
+
 
 # James: 5 Ministries
 **Christ over Capital.** A Christian socialist movement proclaiming that you cannot serve both God and Mammon.
