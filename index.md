@@ -4,7 +4,7 @@ title: Home
 ---
 
 <div class="j5-nav">
-  {% include nav.md %}
+{% include nav.html %}
 </div>
 
 
