@@ -3,7 +3,10 @@ layout: default
 title: Partner
 ---
 
-{% include nav.md %}
+<div class="j5-nav">
+  {% include nav.md %}
+</div>
+
 
 # Partner With Us
 **Provide Content**, **Volunteer**, **Network**, and **Share Thoughts**.
