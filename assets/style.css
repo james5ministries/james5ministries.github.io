@@ -31,7 +31,7 @@ a{ color:var(--red); }
 
 /* Logo sizing */
 .j5-nav .nav-logo img{
-  height: 32px;  /* tweak 28–40px */
+  height: 48px;  /* tweak 28–40px */
   width: auto;
   display: block;
 }
