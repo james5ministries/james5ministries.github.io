@@ -13,36 +13,41 @@ a{ color:var(--red); }
 /* Fixed top nav bar */
 .j5-nav {
   position: fixed;
-  top: 0; left: 0;
-  width: 100%;
+  top: 0; left: 0; width: 100%;
   background: var(--cream);
   border-bottom: 2px solid var(--red);
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 8px 20px;
   z-index: 1000;
   box-shadow: 0 2px 6px rgba(0,0,0,.06);
 }
 
+.j5-nav .nav-container {
+  max-width: 1100px;   /* keeps things away from edges */
+  margin: 0 auto;      /* center the container */
+  padding: 0 24px;     /* left/right breathing room */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .j5-nav .nav-logo img {
-  height: 48px;   /* adjust size as needed */
+  height: 32px;  /* adjust logo size */
   width: auto;
   display: block;
 }
 
 .j5-nav .nav-links a {
-  margin-left: 0px;
+  margin-left: 18px;
   font-weight: 600;
   color: var(--red);
   text-decoration: none;
 }
-
 .j5-nav .nav-links a:hover {
   text-decoration: underline;
 }
 
-body { margin-top: 70px; } /* adjust if bar gets taller */
+/* Push page content down so it’s not hidden behind nav */
+body { margin-top: 70px; }
+ /* adjust if bar gets taller */
 
 
 /* Page wrapper */
