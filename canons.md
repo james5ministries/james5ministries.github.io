@@ -3,7 +3,10 @@ layout: default
 title: Canons
 ---
 
-{% include nav.md %}
+<div class="j5-nav">
+  {% include nav.md %}
+</div>
+
 
 # James: 5 Canons
 We confess: **Christ is Lord, not Capital.**  
