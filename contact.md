@@ -3,9 +3,7 @@ layout: default
 title: Contact
 ---
 
-<div class="j5-nav">
 {% include nav.html %}
-</div>
 
 
 # Contact
