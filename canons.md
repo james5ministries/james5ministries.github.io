@@ -3,9 +3,7 @@ layout: default
 title: Canons
 ---
 
-<div class="j5-nav">
 {% include nav.html %}
-</div>
 
 
 # James: 5 Canons
