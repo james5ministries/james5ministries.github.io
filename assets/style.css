@@ -2,29 +2,38 @@
   --red:  #c64343;  /* Socialist Red */
   --gold: #ffd34d;  /* Icon Gold */
   --cream:#ffefd2;  /* Cream Background */
-  --ink:  #2a1a1a;  /* Dark text for contrast */
+  --ink:  #2a1a1a;  /* Text */
 }
 
-body { background: var(--cream); color: var(--ink); margin-top: 72px; }
+/* Base */
+html,body{ margin:0; background:var(--cream); color:var(--ink); font:16px/1.6 "Source Serif 4", serif; }
+h1,h2,h3{ font-family:"Cinzel", serif; margin:0 0 12px; }
+a{ color:var(--red); }
+
+/* Fixed top nav bar */
 .j5-nav{
   position: fixed; top:0; left:0; width:100%;
   background: var(--cream);
   border-bottom: 2px solid var(--red);
-  text-align:center; padding:10px 0; z-index:1000;
+  text-align: center; padding: 10px 0; z-index: 1000;
+  box-shadow: 0 2px 6px rgba(0,0,0,.06);
 }
 .j5-nav a{
-  margin:0 12px; font-weight:600; color:var(--red); text-decoration:none;
+  margin: 0 12px; font-weight: 600; color: var(--red); text-decoration: none;
 }
-.j5-nav a:hover{ text-decoration:underline; }
+.j5-nav a:hover{ text-decoration: underline; }
 
-/* Optional: subtle depth */
-.j5-nav{ box-shadow: 0 2px 6px rgba(0,0,0,.06); }
-h1,h2{ scroll-margin-top:90px; }
-@media (max-width:640px){
-  .j5-nav a{ display:inline-block; margin:6px 8px; }
-  body{ margin-top:86px; }
+/* Keep content below the fixed bar */
+body{ margin-top: 86px; } /* adjust if your nav height changes */
+
+/* Page wrapper */
+.j5-container{
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px;
 }
 
+/* Buttons (optional) */
 .btn{
   display:inline-block; padding:12px 16px; border-radius:10px;
   font-weight:700; text-decoration:none; border:2px solid var(--red);
@@ -32,3 +41,10 @@ h1,h2{ scroll-margin-top:90px; }
 .btn.primary{ background:var(--red); color:#fff; }
 .btn.ghost{ background:transparent; color:var(--red); }
 .btn.gold{ background:var(--gold); color:var(--ink); border-color:var(--gold); }
+
+/* Mobile */
+@media (max-width:640px){
+  .j5-nav a{ display:inline-block; margin:6px 8px; }
+  .j5-container{ padding: 18px; }
+}
+
