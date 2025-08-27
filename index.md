@@ -23,5 +23,3 @@ James: 5 Ministries is a grassroots, Christ-centered movement calling the Church
 - **God Hears the Poor** — We stand with workers and the oppressed.
 
 > *“The cries of the harvesters have reached the ears of the Lord.”* — **James 5:4**
-
-**Contact:** info@james5.org
