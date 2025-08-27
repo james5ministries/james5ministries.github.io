@@ -3,7 +3,10 @@ layout: default
 title: Contact
 ---
 
-{% include nav.md %}
+<div class="j5-nav">
+  {% include nav.md %}
+</div>
+
 
 # Contact
 - General: **info@james5.org**
