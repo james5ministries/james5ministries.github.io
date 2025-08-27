@@ -10,7 +10,7 @@ title: Home
 **Christ over Capital.** A Christian movement proclaiming that you cannot serve both God and Mammon. 
 
 [Join the Movement](mailto:info@james5.org?subject=Join%20the%20Movement){: .btn .primary }
-[Podcast](https://james5ministries.substack.com){: .btn .primary }
+[Podcast/Newsletter](https://james5ministries.substack.com){: .btn .primary }
 [Merch](https://james5.creator-spring.com){: .btn .gold }
 
 ---
