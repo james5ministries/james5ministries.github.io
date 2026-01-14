@@ -207,6 +207,14 @@ body { margin-top: var(--nav-h, 70px); }
 }
 
 
+/* Vertical separators between columns */
+.comparison-table th:nth-child(1),
+.comparison-table td:nth-child(1),
+.comparison-table th:nth-child(2),
+.comparison-table td:nth-child(2) {
+  border-right: 1px solid rgba(42, 26, 26, 0.2);
+}
+
 /* Highlighted comparison column */
 .comparison-table .highlight-col{
   background: rgba(198, 67, 67, 0.08); /* soft Socialist Red */
