@@ -117,22 +117,19 @@ body { margin-top: var(--nav-h, 70px); }
   text-decoration: underline;
 }
 
-@media (min-width: 1100px){
+@media (min-width: 900px){
   .home-layout{
     display: grid;
-    grid-template-columns: minmax(0, 1fr) 320px; /* main + sidebar column */
+    grid-template-columns: minmax(0, 1fr) 320px;
     gap: 40px;
     align-items: start;
   }
 
-  /* Make sure sidebar stays in its column */
   .home-layout aside{
     width: 320px;
-    justify-self: end;
-    position: relative;
-    padding-right: 24px;
-
-    /* Push outward by the space between the container edge and viewport edge */
-    transform: translateX(calc((100vw - 1100px) / 2));
+    justify-self: end;     /* aligns to the right edge of the grid */
+    transform: none;       /* IMPORTANT: remove breakout */
+    margin: 0;             /* remove any negative margins if you added them */
+    padding-right: 0;      /* optional */
   }
 }
