@@ -206,6 +206,28 @@ body { margin-top: var(--nav-h, 70px); }
   }
 }
 
+
+/* Highlighted comparison column */
+.comparison-table .highlight-col{
+  background: rgba(198, 67, 67, 0.08); /* soft Socialist Red */
+}
+
+/* Round top + bottom of the column */
+.comparison-table thead .highlight-col{
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.comparison-table tbody tr:last-child .highlight-col{
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+/* Slight emphasis on text */
+.comparison-table .highlight-col{
+  font-weight: 600;
+}
+
 .latest-media{
   margin-top: 40px;
   padding: 20px;
