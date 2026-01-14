@@ -120,7 +120,13 @@ body { margin-top: var(--nav-h, 70px); }
 @media (min-width: 900px){
   .home-layout{
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: minmax(0, 1fr) 320px;
     gap: 40px;
+    align-items: start;
+  }
+
+  /* Push sidebar outward beyond the main container boundary */
+  .home-layout aside{
+    margin-right: -120px; /* increase to -160px if you want more */
   }
 }
