@@ -81,6 +81,36 @@ body { margin-top: var(--nav-h, 70px); }
 }
 
 
+.toggle-block{ margin: 24px 0; }
+.toggle-buttons{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+.toggle-btn{
+  border: 2px solid var(--red);
+  background: var(--cream);
+  color: var(--red);
+  font-weight: 700;
+  padding: 10px 14px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.toggle-btn.is-active{
+  background: var(--red);
+  color: #fff;
+}
+.toggle-panels{
+  border-left: 4px solid var(--red);
+  background: rgba(198, 67, 67, 0.05);
+  padding: 16px;
+  border-radius: 12px;
+}
+.toggle-panel{ display: none; }
+.toggle-panel.is-open{ display: block; }
+.toggle-panel h3{ margin-top: 0; }
+
 .latest-media{
   margin-top: 40px;
   padding: 20px;
