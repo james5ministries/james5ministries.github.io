@@ -5,6 +5,8 @@ title: Home
 
 {% include nav.html %}
 
+<div class="home-layout">
+  <div>
 
 # James: 5 Ministries
 **Christ over Capital.** A Christian movement proclaiming that you cannot serve both God and Mammon. 
@@ -24,6 +26,9 @@ James: 5 Ministries is a grassroots, Christ-centered movement calling the Church
 
 > *“The cries of the harvesters have reached the ears of the Lord.”* — **James 5:4**
 
+  </div>
+  <aside>
+
 <section class="latest-media">
   <h2>Latest</h2>
 
@@ -42,4 +47,8 @@ James: 5 Ministries is a grassroots, Christ-centered movement calling the Church
     </a>
   </div>
   -->
+  
 </section>
+
+  </aside>
+</div>
