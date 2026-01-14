@@ -55,28 +55,31 @@ We invite: churches, workers, and neighbors to follow Jesus in public—toward m
   if (!block || !block.classList.contains('toggle-block')) return;
 
   const buttons = block.querySelectorAll('.toggle-btn');
+  const panelsWrap = block.querySelector('.toggle-panels');
   const panels  = block.querySelectorAll('.toggle-panel');
 
   function closeAll(){
     panels.forEach(p => p.classList.remove('is-open'));
     buttons.forEach(b => b.classList.remove('is-active'));
+    panelsWrap.classList.remove('is-open');
   }
 
   buttons.forEach(btn => {
     btn.addEventListener('click', () => {
       const targetId = btn.dataset.target;
       const panel = block.querySelector('#' + targetId);
-      const isOpen = panel.classList.contains('is-open');
+      const wasOpen = panel.classList.contains('is-open');
 
       closeAll();
 
-      // If it was not open, open it. If it was open, leave all closed.
-      if (!isOpen){
+      if (!wasOpen){
         panel.classList.add('is-open');
         btn.classList.add('is-active');
+        panelsWrap.classList.add('is-open');
       }
     });
   });
 })();
 </script>
+
 
