@@ -34,6 +34,22 @@ We invite: churches, workers, and neighbors to follow Jesus in public—toward m
         It names the spiritual danger of Mammon, rejects profit as the highest good, and insists that economic
         arrangements must serve human dignity and the common good.
       </p>
+       <details class="learn-more">
+    <summary>Learn more</summary>
+
+    <div class="learn-more-body">
+      <h4>Key Scriptures</h4>
+      <ul>
+        <li><strong>James 5:1-6</strong> - Woes to the rich who exploit labor.</li>
+        <li><strong>Matthew 6:24</strong> - You cannot serve God and Mammon.</li>
+        <li><strong>Luke 4:18-19</strong> - Good news to the poor, liberty to the oppressed.</li>
+        <li><strong>Amos 5:24</strong> - Let justice roll down like waters.</li>
+      </ul>
+
+      <h4>Notes</h4>
+      <p>
+        Add a short paragraph that connects these texts to your thesis and the movement’s commitments.
+      </p>
     </div>
 
     <div id="christian-socialism" class="toggle-panel">
@@ -44,6 +60,22 @@ We invite: churches, workers, and neighbors to follow Jesus in public—toward m
         and material care for the vulnerable, grounded in the lordship of Christ. It emphasizes the social
         obligations of wealth, the priority of workers and families, and the call to build institutions that
         distribute power and provision more fairly.
+      </p>
+       <details class="learn-more">
+    <summary>Learn more</summary>
+
+    <div class="learn-more-body">
+      <h4>Key Scriptures</h4>
+      <ul>
+        <li><strong>James 5:1-6</strong> - Woes to the rich who exploit labor.</li>
+        <li><strong>Matthew 6:24</strong> - You cannot serve God and Mammon.</li>
+        <li><strong>Luke 4:18-19</strong> - Good news to the poor, liberty to the oppressed.</li>
+        <li><strong>Amos 5:24</strong> - Let justice roll down like waters.</li>
+      </ul>
+
+      <h4>Notes</h4>
+      <p>
+        Add a short paragraph that connects these texts to your thesis and the movement’s commitments.
       </p>
     </div>
   </div>
