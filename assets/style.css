@@ -130,6 +130,7 @@ body { margin-top: var(--nav-h, 70px); }
     width: 320px;
     justify-self: end;
     position: relative;
+    padding-right: 24px;
 
     /* Push outward by the space between the container edge and viewport edge */
     transform: translateX(calc((100vw - 1100px) / 2));
