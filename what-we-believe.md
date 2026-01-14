@@ -126,7 +126,7 @@ We invite: churches, workers, and neighbors to follow Jesus in public—toward m
         <th>Question</th>
         <th>Capitalism</th>
         <th>Marxist / Leninist / Maoist Socialism</th>
-        <th>Christian Socialism</th>
+        <th class="highlight-col">Christian Socialism</th>
       </tr>
     </thead>
     <tbody>
@@ -134,35 +134,35 @@ We invite: churches, workers, and neighbors to follow Jesus in public—toward m
         <td><strong>To whom does your labor belong?</strong></td>
         <td>Your employer (by contract)</td>
         <td>The collective / the state</td>
-        <td>Ultimately God; stewarded by the worker</td>
+        <td class="highlight-col">God</td>
       </tr>
 
       <tr>
         <td><strong>What is labor for?</strong></td>
         <td>Profit and productivity</td>
         <td>Production toward a planned end</td>
-        <td>Human flourishing and the common good</td>
+        <td class="highlight-col">Human flourishing and the common good</td>
       </tr>
 
       <tr>
         <td><strong>View of the worker</strong></td>
         <td>Economic unit</td>
         <td>Class actor</td>
-        <td>Image-bearer of God</td>
+        <td class="highlight-col">Image-bearer of God</td>
       </tr>
 
       <tr>
         <td><strong>View of wealth</strong></td>
         <td>Private accumulation</td>
         <td>Collective control</td>
-        <td>Gift held in trust</td>
+        <td class="highlight-col">Gift held in trust</td>
       </tr>
 
       <tr>
         <td><strong>Ultimate authority</strong></td>
         <td>The market</td>
         <td>The party / state</td>
-        <td>Christ</td>
+        <td class="highlight-col">Christ</td>
       </tr>
     </tbody>
   </table>
