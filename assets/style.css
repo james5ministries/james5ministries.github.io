@@ -125,8 +125,8 @@ body { margin-top: var(--nav-h, 70px); }
     align-items: start;
   }
 
-  /* Push sidebar outward beyond the main container boundary */
   .home-layout aside{
-    margin-right: -120px; /* increase to -160px if you want more */
+    position: relative;
+    right: calc((100vw - 900px) / 2); /* 900px = your .j5-container max-width */
   }
 }
