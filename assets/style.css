@@ -23,7 +23,7 @@ a{ color:var(--red); }
 
 /* Centered max-width container + flex row */
 .j5-nav .nav-container{
-  max-width: 1100px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 8px 24px;
   display: flex;
@@ -65,7 +65,7 @@ body { margin-top: var(--nav-h, 70px); }
 
 /* Page wrapper */
 .j5-container{
-  max-width: 900px;
+  max-width: 1100px;
   margin: 0 auto;
   padding: 24px;
 }
@@ -117,16 +117,21 @@ body { margin-top: var(--nav-h, 70px); }
   text-decoration: underline;
 }
 
-@media (min-width: 900px){
+@media (min-width: 1100px){
   .home-layout{
     display: grid;
-    grid-template-columns: minmax(0, 1fr) 320px;
+    grid-template-columns: minmax(0, 1fr) 320px; /* main + sidebar column */
     gap: 40px;
     align-items: start;
   }
 
+  /* Make sure sidebar stays in its column */
   .home-layout aside{
+    width: 320px;
+    justify-self: end;
     position: relative;
-    right: calc((100vw - 900px) / 2); /* 900px = your .j5-container max-width */
+
+    /* Push outward by the space between the container edge and viewport edge */
+    transform: translateX(calc((100vw - 1100px) / 2));
   }
 }
