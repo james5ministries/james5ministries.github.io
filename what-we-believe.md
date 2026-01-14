@@ -16,7 +16,7 @@ We invite: churches, workers, and neighbors to follow Jesus in public—toward m
 
 <section class="toggle-block">
   <div class="toggle-buttons">
-    <button type="button" class="toggle-btn is-active" data-target="anti-cap">
+    <button type="button" class="toggle-btn" data-target="anti-cap">
       What is Christian Anti-Capitalism
     </button>
     <button type="button" class="toggle-btn" data-target="christian-socialism">
@@ -25,7 +25,7 @@ We invite: churches, workers, and neighbors to follow Jesus in public—toward m
   </div>
 
   <div class="toggle-panels">
-    <div id="anti-cap" class="toggle-panel is-open">
+    <div id="anti-cap" class="toggle-panel">
       <h3>Christian Anti-Capitalism</h3>
       <p>
         <!-- Replace this with your copy -->
@@ -51,22 +51,32 @@ We invite: churches, workers, and neighbors to follow Jesus in public—toward m
 
 <script>
 (function(){
-  const root = document.currentScript.previousElementSibling;
-  if (!root || !root.classList.contains('toggle-block')) return;
+  const block = document.currentScript.previousElementSibling;
+  if (!block || !block.classList.contains('toggle-block')) return;
 
-  const buttons = root.querySelectorAll('.toggle-btn');
-  const panels  = root.querySelectorAll('.toggle-panel');
+  const buttons = block.querySelectorAll('.toggle-btn');
+  const panels  = block.querySelectorAll('.toggle-panel');
 
-  function openPanel(id){
-    panels.forEach(p => p.classList.toggle('is-open', p.id === id));
-    buttons.forEach(b => b.classList.toggle('is-active', b.dataset.target === id));
+  function closeAll(){
+    panels.forEach(p => p.classList.remove('is-open'));
+    buttons.forEach(b => b.classList.remove('is-active'));
   }
 
   buttons.forEach(btn => {
-    btn.addEventListener('click', () => openPanel(btn.dataset.target));
-  });
+    btn.addEventListener('click', () => {
+      const targetId = btn.dataset.target;
+      const panel = block.querySelector('#' + targetId);
+      const isOpen = panel.classList.contains('is-open');
 
-  // Ensure only one is open on load
-  openPanel(root.querySelector('.toggle-btn.is-active')?.dataset.target || panels[0].id);
+      closeAll();
+
+      // If it was not open, open it. If it was open, leave all closed.
+      if (!isOpen){
+        panel.classList.add('is-open');
+        btn.classList.add('is-active');
+      }
+    });
+  });
 })();
 </script>
+
