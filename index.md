@@ -6,7 +6,7 @@ title: Home
 {% include nav.html %}
 
 <div class="home-layout">
-  <div>
+   <div markdown="1">
 
 # James: 5 Ministries
 **Christ over Capital.** A Christian movement proclaiming that you cannot serve both God and Mammon. 
