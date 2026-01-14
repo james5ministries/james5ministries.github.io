@@ -102,14 +102,20 @@ body { margin-top: var(--nav-h, 70px); }
   color: #fff;
 }
 .toggle-panels{
+  display: none;                 /* hidden by default */
   border-left: 4px solid var(--red);
   background: rgba(198, 67, 67, 0.05);
   padding: 16px;
   border-radius: 12px;
 }
+
+.toggle-panels.is-open{
+  display: block;                /* only appears when a panel is open */
+}
+
 .toggle-panel{ display: none; }
 .toggle-panel.is-open{ display: block; }
-.toggle-panel h3{ margin-top: 0; }
+
 
 .latest-media{
   margin-top: 40px;
