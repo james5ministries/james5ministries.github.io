@@ -1,6 +1,6 @@
 ---
 layout: custom
-title: Canons
+title: What We Believe
 ---
 
 {% include nav.html %}
