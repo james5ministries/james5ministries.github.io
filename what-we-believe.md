@@ -125,23 +125,23 @@ We invite: churches, workers, and neighbors to follow Jesus in public—toward m
       <tr>
         <th>Question</th>
         <th>Capitalism</th>
-        <th>Marxist / Leninist / Maoist Socialism</th>
+        <th>Materialist Socialism</th>
         <th class="highlight-col">Christian Socialism</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><strong>To whom does your labor belong?</strong></td>
-        <td>Your employer (by contract)</td>
-        <td>The collective / the state</td>
+        <td>Your employer</td>
+        <td>The collective</td>
         <td class="highlight-col">God</td>
       </tr>
 
       <tr>
         <td><strong>What is labor for?</strong></td>
-        <td>Profit and productivity</td>
-        <td>Production toward a planned end</td>
-        <td class="highlight-col">Human flourishing and the common good</td>
+        <td>Profit</td>
+        <td>Planned production</td>
+        <td class="highlight-col">Love of neighbor</td>
       </tr>
 
       <tr>
@@ -166,4 +166,5 @@ We invite: churches, workers, and neighbors to follow Jesus in public—toward m
       </tr>
     </tbody>
   </table>
+  <p>While Marxism, Leninism, and Maoism differ in important ways, they share a materialist view of labor, history, and authority that distinguishes them from Christian Socialism’s theological foundation.</p>
 </section>
