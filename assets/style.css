@@ -38,8 +38,19 @@ a{ color:var(--red); }
   line-height: 1.1;
 }
 
+.nav-title-row{
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
 .nav-title{
   font-weight: 700;
+}
+
+.external-arrow{
+  font-size: 0.8em;
+  vertical-align: super;
 }
 
 .nav-subtitle{
@@ -56,7 +67,7 @@ a{ color:var(--red); }
 
 .external-link::after{
   content: "↗";
-  font-size: 0.8em;
+  font-size: 1em;
 }
 
 
