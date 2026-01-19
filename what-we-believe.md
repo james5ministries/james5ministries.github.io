@@ -130,7 +130,7 @@ title: What We Believe
       <th class="highlight-col">Christian Socialism</th>
     </tr>
     <tr class="detail-row" data-detail-row="head">
-      <td colspan="4">
+      <th colspan="4">
         <div class="detail-box">
           <div class="detail-grid">
             <div>
@@ -148,7 +148,8 @@ title: What We Believe
             </div>
           </div>
         </div>
-      </td>
+      </th>
+    </tr> 
   </thead>
 
   <tbody>
