@@ -236,6 +236,66 @@ body { margin-top: var(--nav-h, 70px); }
   font-weight: 600;
 }
 
+
+
+/* Clickable cells */
+.comparison-table td.expandable{
+  cursor: pointer;
+}
+.comparison-table td.expandable:hover{
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+
+/* Detail row is hidden unless open */
+.detail-row{
+  display: none;
+}
+.detail-row.is-open{
+  display: table-row;
+}
+
+/* The expanded box */
+.detail-box{
+  border-left: 4px solid var(--red);
+  background: rgba(198, 67, 67, 0.05);
+  padding: 16px;
+  border-radius: 12px;
+}
+
+.detail-box h4{
+  margin: 0 0 8px 0;
+}
+.detail-lede{
+  margin: 0 0 12px 0;
+  opacity: 0.9;
+}
+
+/* 3-column expanded content on desktop */
+.detail-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 16px;
+}
+.detail-grid h5{
+  margin: 0 0 6px 0;
+  color: var(--red);
+}
+.detail-verses{
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+/* Mobile - stack */
+@media (max-width: 720px){
+  .detail-grid{
+    grid-template-columns: 1fr;
+  }
+}
+
+
+
 .latest-media{
   margin-top: 40px;
   padding: 20px;
