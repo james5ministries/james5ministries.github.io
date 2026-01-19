@@ -123,20 +123,40 @@ title: What We Believe
 
 <table class="comparison-table js-expandable-rows">
   <thead>
-    <tr>
+    <tr> class="expand-row" data-detail="head" role="button" tabindex="0" aria-expanded="false">
       <th>Question</th>
       <th>Capitalism</th>
-      <th>Marxist / Leninist / Maoist Socialism</th>
+      <th>Materialist Socialism</th>
       <th class="highlight-col">Christian Socialism</th>
     </tr>
+    <tr class="detail-row" data-detail-row="head">
+      <td colspan="4">
+        <div class="detail-box">
+          <div class="detail-grid">
+            <div>
+              <h4>Capitalism</h4>
+              <p>Expanded explanation for capitalism goes here.</p>
+            </div>
+            <div>
+              <h4>Materialist Socialism</h4>
+              <p>While Marxism, Leninism, and Maoism differ in important ways, they share a materialist view of labor, history, and authority that distinguishes them from Christian Socialism’s theological foundation.</p>
+            </div>
+            <div>
+              <h4>Christian Socialism</h4>
+              <p>Expanded explanation for Christian socialism goes here.</p>
+              <p class="detail-verses">Key texts - James 5:1-6, Matthew 6:24</p>
+            </div>
+          </div>
+        </div>
+      </td>
   </thead>
 
   <tbody>
     <tr class="expand-row" data-detail="labor" role="button" tabindex="0" aria-expanded="false">
       <td><strong>To whom does your labor belong?</strong></td>
-      <td>Your employer (by contract)</td>
-      <td>The collective / the state</td>
-      <td class="highlight-col">Ultimately God; stewarded by the worker</td>
+      <td>Your employer</td>
+      <td>The collective</td>
+      <td class="highlight-col">God</td>
     </tr>
 
     <tr class="detail-row" data-detail-row="labor">
@@ -190,7 +210,6 @@ title: What We Believe
       </tr>
     </tbody>
   </table>
-  <p>While Marxism, Leninism, and Maoism differ in important ways, they share a materialist view of labor, history, and authority that distinguishes them from Christian Socialism’s theological foundation.</p>
 </section>
 
 <script>
