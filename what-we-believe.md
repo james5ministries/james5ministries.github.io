@@ -7,11 +7,12 @@ title: What We Believe
 
 
 # James: 5 Canons
-We confess: **Christ is Lord, not Capital.**  
-We resist: exploitative wealth and systems that crush workers and the poor.  
-We proclaim: God hears the harvesters’ cries.  
-We practice: repentance, generosity, solidarity, and good news to the poor.  
-We invite: churches, workers, and neighbors to follow Jesus in public—toward mercy, equity, and hope.
+1. **Christ is Lord, not Capital.**  
+2. Sin is embedded in economic and political systems. 
+3. Christian should resist exploitative wealth and systems that crush workers and the poor.  
+4. God hears the harvesters’ cries and will bring about justice.  
+5. The Gospel requires preaching repentance, generosity, solidarity, and good news to the poor.  
+6. Faithful obedience requires churches, workers, and neighbors to follow Jesus in action toward mercy, equity, and hope.
 
 
 <section class="toggle-block">
