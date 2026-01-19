@@ -121,69 +121,40 @@ title: What We Believe
 <section class="comparison-block">
   <h3>What do different traditions say about…</h3>
 
-<table class="comparison-table js-expandable-table">
+<table class="comparison-table js-expandable-rows">
   <thead>
     <tr>
       <th>Question</th>
       <th>Capitalism</th>
-      <th>Materialist Socialism</th>
+      <th>Marxist / Leninist / Maoist Socialism</th>
       <th class="highlight-col">Christian Socialism</th>
     </tr>
   </thead>
 
   <tbody>
-    <tr>
+    <tr class="expand-row" data-detail="labor" role="button" tabindex="0" aria-expanded="false">
       <td><strong>To whom does your labor belong?</strong></td>
-
-      <td class="expandable" data-detail="labor" data-col="capitalism">
-        Your employer
-      </td>
-
-      <td class="expandable" data-detail="labor" data-col="materialist">
-        The collective
-      </td>
-
-      <td class="expandable highlight-col" data-detail="labor" data-col="christian">
-        God
-      </td>
+      <td>Your employer (by contract)</td>
+      <td>The collective / the state</td>
+      <td class="highlight-col">Ultimately God; stewarded by the worker</td>
     </tr>
 
     <tr class="detail-row" data-detail-row="labor">
       <td colspan="4">
         <div class="detail-box">
-          <h4>Expanded explanation - Labor</h4>
-
-          <p class="detail-lede">
-            This is the longer explanation that appears under the row you clicked.
-            You can write it neutrally, then add your Christian framing.
-          </p>
-
           <div class="detail-grid">
             <div>
-              <h5>Capitalism</h5>
-              <p>
-                Contractually, labor is exchanged for wages and directed by the employer. This can create clarity and
-                efficiency, but can also treat the worker primarily as an input to production.
-              </p>
+              <h4>Capitalism</h4>
+              <p>Expanded explanation for capitalism goes here.</p>
             </div>
-
             <div>
-              <h5>Materialist</h5>
-              <p>
-                Labor is oriented toward collective production and planned ends, with authority typically centered in
-                party-state institutions.
-              </p>
+              <h4>Marxist / Leninist / Maoist</h4>
+              <p>Expanded explanation for MLM socialism goes here.</p>
             </div>
-
             <div>
-              <h5>Christian Socialism</h5>
-              <p>
-                Labor is ultimately rendered to God and offered for neighbor-love. The worker is not owned - they are a
-                steward of vocation. Economic arrangements are judged by whether they honor dignity and serve the common good.
-              </p>
-              <p class="detail-verses">
-                Suggested texts - James 5:1-6, Matthew 6:24, Colossians 3:23-24
-              </p>
+              <h4>Christian Socialism</h4>
+              <p>Expanded explanation for Christian socialism goes here.</p>
+              <p class="detail-verses">Key texts - James 5:1-6, Matthew 6:24</p>
             </div>
           </div>
         </div>
@@ -224,29 +195,44 @@ title: What We Believe
 
 <script>
 (function(){
-  const table = document.querySelector('.js-expandable-table');
+  const table = document.querySelector('.js-expandable-rows');
   if (!table) return;
 
-  const detailRows = table.querySelectorAll('.detail-row');
+  const questionRows = table.querySelectorAll('tr.expand-row');
+  const detailRows = table.querySelectorAll('tr.detail-row');
 
   function closeAll(){
     detailRows.forEach(r => r.classList.remove('is-open'));
+    questionRows.forEach(r => r.setAttribute('aria-expanded', 'false'));
+  }
+
+  function toggleRow(id, clickedRow){
+    const detail = table.querySelector(`tr.detail-row[data-detail-row="${id}"]`);
+    if (!detail) return;
+
+    const wasOpen = detail.classList.contains('is-open');
+    closeAll();
+
+    if (!wasOpen){
+      detail.classList.add('is-open');
+      clickedRow.setAttribute('aria-expanded', 'true');
+    }
   }
 
   table.addEventListener('click', (e) => {
-    const cell = e.target.closest('td.expandable');
-    if (!cell || !table.contains(cell)) return;
+    const row = e.target.closest('tr.expand-row');
+    if (!row || !table.contains(row)) return;
+    toggleRow(row.dataset.detail, row);
+  });
 
-    const id = cell.dataset.detail;
-    if (!id) return;
-
-    const row = table.querySelector(`.detail-row[data-detail-row="${id}"]`);
+  // Keyboard accessibility (Enter/Space)
+  table.addEventListener('keydown', (e) => {
+    const row = e.target.closest('tr.expand-row');
     if (!row) return;
-
-    const wasOpen = row.classList.contains('is-open');
-
-    closeAll();
-    if (!wasOpen) row.classList.add('is-open');
+    if (e.key === 'Enter' || e.key === ' '){
+      e.preventDefault();
+      toggleRow(row.dataset.detail, row);
+    }
   });
 })();
 </script>
