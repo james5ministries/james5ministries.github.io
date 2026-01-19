@@ -123,7 +123,7 @@ title: What We Believe
 
 <table class="comparison-table js-expandable-rows">
   <thead>
-    <tr> class="expand-row" data-detail="head" role="button" tabindex="0" aria-expanded="false">
+    <tr class="expand-row" data-detail="head" role="button" tabindex="0" aria-expanded="false">
       <th>Question</th>
       <th>Capitalism</th>
       <th>Materialist Socialism</th>
