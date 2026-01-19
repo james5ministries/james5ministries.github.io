@@ -31,6 +31,35 @@ a{ color:var(--red); }
   justify-content: space-between;
 }
 
+
+.nav-multiline{
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
+}
+
+.nav-title{
+  font-weight: 700;
+}
+
+.nav-subtitle{
+  font-size: 0.75em;
+  opacity: 0.7;
+  margin-top: 2px;
+}
+
+/* Keep the external arrow aligned with the title line */
+.nav-multiline.external-link::after{
+  align-self: flex-start;
+  margin-left: 6px;
+}
+
+.external-link::after{
+  content: "↗";
+  font-size: 0.8em;
+}
+
+
 /* Logo sizing */
 .j5-nav .nav-logo img{
   height: 48px;  /* tweak 28–40px */
