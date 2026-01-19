@@ -7,7 +7,13 @@
 
     <nav class="nav-links">
       <a href="{{ '/' | relative_url }}">Home</a>
-      <a href="https://james5ministries.substack.com" target="_blank" rel="noopener">Podcast/Newsletter</a>
+      <a href="https://james5ministries.substack.com"
+         class="external-link nav-multiline"
+         target="_blank"
+         rel="noopener">
+        <span class="nav-title">Podcast / Newsletter</span>
+        <span class="nav-subtitle">Substack</span>
+      </a>
       <a href="{{ '/what-we-believe.html'   | relative_url }}">What We Believe</a>
     </nav>
   </div>
