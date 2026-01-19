@@ -156,7 +156,7 @@ title: What We Believe
         <td><strong>View of wealth</strong></td>
         <td>Private accumulation</td>
         <td>Collective control</td>
-        <td class="highlight-col">A burden of responsibility/td>
+        <td class="highlight-col">A burden of responsibility</td>
       </tr>
 
       <tr>
